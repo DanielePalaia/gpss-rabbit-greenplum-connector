@@ -11,15 +11,15 @@ These are the steps to run the software:
 
 Prerequisites:
 
-1) Activate the gpss extension on the greenplum database you want to use (for example test)
+1) Activate the gpss extension on the greenplum database you want to use (for example test)<br/>
    test=# CREATE EXTENSION gpss;
    
-2) create a table inside this database with a json field on it (for example mytest3)
+2) create a table inside this database with a json field on it (for example mytest3)<br/>
    test=# create table mytest3(data json);
    
-3) Run a gpss server with the right configuration (ex):
+3) Run a gpss server with the right configuration (ex):<br/>
   gpss ./gpsscfg1.json --log-dir ./gpsslogs
-  where gpsscfg1.json is 
+  where gpsscfg1.json is <br/><br/>
   {
     "ListenAddress": {
         "Host": "",
@@ -30,19 +30,19 @@ Prerequisites:
         "Host": "",
         "Port": 8086
     }
-}
+}<br/>
 
-4) download, install and run a rabbitmq broker
+4) download, install and run a rabbitmq broker<br/>
 ./rabbitmq-server
 
-5) Create a rabbitmq transient queue with the rabbitmq UI interface you want the connector to connect (es gpss):
+5) Create a rabbitmq transient queue with the rabbitmq UI interface you want the connector to connect (es gpss):<br/>
   ![Screenshot](queue.png)
   
 Running the application:
 
 1) The application is written in GO. If you are using MacOs then you can directly use the binary version inside /bin of this project called: gpss-rabbit-greenplum-connect otherwise you must compile it with the GO compiler
 
-2) Use the file properties.ini (that should be place in the same directory of the binary in order to instruct the program with this properties
+2) Use the file properties.ini (that should be place in the same directory of the binary in order to instruct the program with this properties<br/>
 
 GpssAddress=10.91.51.23:50007
 GreenplumAddress=10.91.51.23
@@ -56,21 +56,21 @@ rabbit=amqp://guest:guest@localhost:5672/
 queue=gpss
 batch=50000  
 
-queue is the rabbitmq queue name while batch is the amount of batching that the rabbit-greenplum connector must take before pushing the data into greenplum.
+queue is the rabbitmq queue name while batch is the amount of batching that the rabbit-greenplum connector must take before pushing the data into greenplum.<br/>
 
-3) Run the connector:
+3) Run the connector:<br/>
 ./gpss-rabbit-greenplum-connect 
 Danieles-MBP:bin dpalaia$ ./gpss-rabbit-greenplum-connector 
 connecting to grpc server
 connected
-2019/02/26 17:01:30  [*] Waiting for messages. To exit press CTRL+C
+2019/02/26 17:01:30  [*] Waiting for messages. To exit press CTRL+C<br/>
 
-4) Populate the queue with the UI interface (Publish command)
+4) Populate the queue with the UI interface (Publish command)<br/>
 ![Screenshot](queue2.png)
 
-5) Once you publish more messages than the batch value you should then see the table populated and you can restart publishing.
+5) Once you publish more messages than the batch value you should then see the table populated and you can restart publishing.<br/>
 
 6) In order to make tests easy I also developed a simple consumer inside rabbit-client, you can find a binary for macos always inside bin.
-If you run
+If you run<br/>
 ./rabbit-client
 he will take the same configuration that is inside properties.ini and will start to fire messages inside the same queue.
