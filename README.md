@@ -12,13 +12,13 @@ These are the steps to run the software:
 Prerequisites:
 
 1) Activate the gpss extension on the greenplum database you want to use (for example test)<br/>
-   <h2> test=# CREATE EXTENSION gpss;</h2>
+   **test=# CREATE EXTENSION gpss;**
    
-2) create a table inside this database with a json field on it (for example mytest3)<br/>
-   test=# create table mytest3(data json);
+2) create a table inside this database with a json field on it (for example mytest3)
+   **test=# create table mytest3(data json);**
    
 3) Run a gpss server with the right configuration (ex):<br/>
-  gpss ./gpsscfg1.json --log-dir ./gpsslogs
+  gpss ./gpsscfg1.json --log-dir ./gpsslogs <br/>
   where gpsscfg1.json is <br/><br/>
   {
     "ListenAddress": {
@@ -33,7 +33,7 @@ Prerequisites:
 }<br/>
 
 4) download, install and run a rabbitmq broker<br/>
-./rabbitmq-server
+ ./rabbitmq-server
 
 5) Create a rabbitmq transient queue with the rabbitmq UI interface you want the connector to connect (es gpss):<br/>
   ![Screenshot](queue.png)
