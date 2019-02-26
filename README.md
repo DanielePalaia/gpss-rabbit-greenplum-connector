@@ -1,43 +1,63 @@
-This is a simple gpss client for greenplum:
+This software is intended to be a simple connector rabbitmq-greenplum, similar to the gpsscli which is supporting kafka.
 
-https://gpdb.docs.pivotal.io/5160/greenplum-stream/api/dev_client.html
+It is based on gpss (greenplum streaming server) so will work just with greenplum 5.16 or above.
+https://gpdb.docs.pivotal.io/5160/greenplum-stream/overview.html
 
-it takes a .csv file a schema definition and ingest it inside a greenplum table using the gpss protocol.
+The connector will attach to a rabbitmq queue specified at configuration time will batch a certain amount of elements specified and will ask the gpss server to push them on a greenplum table.
 
-a gpss server must be run before using this cient.
+For the moment the connector is supporting just json format (elements must be strings of json in rabbitmq and the resulting greenplum table needs to be a table with a json field).
 
-The software uses grpc.
+These are the steps to run the software:
 
-gprc contract definition can be found in proto/gpss.proto
+Prerequisites:
 
-From this file it's possible to automatic generate code (in this case Go code) with this 
-command:
+1) Activate the gpss extension on the greenplum database you want to use (for example test)
+   test=# CREATE EXTENSION gpss;
+   
+2) create a table inside this database with a json field on it (for example mytest3)
+   test=# create table mytest3(data json);
+   
+3) Run a gpss server with the right configuration (ex):
+  gpss ./gpsscfg1.json --log-dir ./gpsslogs
+  where gpsscfg1.json is 
+  {
+    "ListenAddress": {
+        "Host": "",
+        "Port": 50007,
+        "SSL": false
+    },
+    "Gpfdist": {
+        "Host": "",
+        "Port": 8086
+    }
+}
 
-protoc --go_out=plugins=grpc:. *.proto
+4) download, install and run a rabbitmq broker
+./rabbitmq-server
 
-Code is already generated for you and can be found in /gpss/gpss.pb.go
+5) Create a rabbitmq transient queue with the rabbitmq UI interface you want the connector to connect (es gpss):
+  ![Screenshot](queue.png)
+  
+Running the application:
 
-Code must be compiled before execution using the Go compiler:
+1) The application is written in GO. If you are using MacOs then you can directly use the binary version inside /bin of this project called: gpss-rabbit-greenplum-connect otherwise you must compile it with the GO compiler
 
-go build client.go
+2) Use the file properties.ini (that should be place in the same directory of the binary in order to instruct the program with this properties
 
-After this the properties file needs to be filled with this explicative info:
+GpssAddress=10.91.51.23:50007
+GreenplumAddress=10.91.51.23
+GreenplumPort=5533
+GreenplumUser=gpadmin
+GreenplumPasswd=**** 
+Database=test
+SchemaName=public
+TableName=mytest3
+rabbit=amqp://guest:guest@localhost:5672/
+queue=gpss
+batch=50000  
 
-* GpssAddress=10.91.51.23:50007     
-* GreenplumAddress=10.91.51.23
-* GreenplumPort=5533
-* GreenplumUser=gpadmin
-* GreenplumPasswd=****
-* Database=test
-* SchemaName=public
-* TableName=mytest
-* columnfile=/Users/dpalaia/GO/src/gpss-client/test/columns.csv
-* datafile=/Users/dpalaia/GO/src/gpss-client/test/data.csv
+queue is the rabbitmq queue name while batch is the amount of batching that the rabbit-greenplum connector must take before pushing the data into greenplum.
 
-
-columnfile must contain the schema table of TableName with all fields separated by coma ex (col1,col2,col3,col4)
-datafile contains the .csv file to ingest.
-
-
-
-
+3) Run the connector:
+./gpss-rabbit-greenplum-connect 
+  ![Screenshot](connector.png)
