@@ -11,7 +11,7 @@ import (
 
 func main() {
 
-	prop, _ := ReadPropertiesFile("/Users/dpalaia/GO/src/gpssclient/properties.ini")
+	prop, _ := ReadPropertiesFile("./properties.ini")
 
 	ch := connect(prop["rabbit"])
 	send(ch, prop["queue"])
