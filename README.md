@@ -40,9 +40,9 @@ Prerequisites:
   
 Running the application:
 
-1) The application is written in GO. If you are using MacOs then you can directly use the binary version inside /bin of this project called: gpss-rabbit-greenplum-connect otherwise you must compile it with the GO compiler
+1. The application is written in GO. If you are using MacOs then you can directly use the binary version inside /bin of this project called: gpss-rabbit-greenplum-connect otherwise you must compile it with the GO compiler
 
-2) Use the file properties.ini (that should be place in the same directory of the binary in order to instruct the program with this properties<br/>
+2. Use the file properties.ini (that should be place in the same directory of the binary in order to instruct the program with this properties<br/>
 
 **GpssAddress=10.91.51.23:50007**<br/>
 **GreenplumAddress=10.91.51.23**<br/>
@@ -58,19 +58,19 @@ Running the application:
 
 queue is the rabbitmq queue name while batch is the amount of batching that the rabbit-greenplum connector must take before pushing the data into greenplum.<br/>
 
-3) Run the connector:<br/>
+3. Run the connector:<br/>
 **./gpss-rabbit-greenplum-connect**<br/> 
 **Danieles-MBP:bin dpalaia$ ./gpss-rabbit-greenplum-connector **<br/>
 **connecting to grpc server**<br/>
 **connected**<br/>
 **2019/02/26 17:01:30  [*] Waiting for messages. To exit press CTRL+C**<br/>
 
-4) Populate the queue with the UI interface (Publish command)<br/>
+4. Populate the queue with the UI interface (Publish command)<br/>
 ![Screenshot](queue2.png)
 
-5) Once you publish more messages than the batch value you should then see the table populated and you can restart publishing.<br/>
+5. Once you publish more messages than the batch value you should then see the table populated and you can restart publishing.<br/>
 
-6) In order to make tests easy I also developed a simple consumer inside rabbit-client, you can find a binary for macos always inside bin.
+6. In order to make tests easy I also developed a simple consumer inside rabbit-client, you can find a binary for macos always inside bin.
 If you run<br/>
 ./rabbit-client
 he will take the same configuration that is inside properties.ini and will start to fire messages inside the same queue.
