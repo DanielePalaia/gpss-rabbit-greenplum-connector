@@ -44,26 +44,26 @@ Running the application:
 
 2) Use the file properties.ini (that should be place in the same directory of the binary in order to instruct the program with this properties<br/>
 
-**GpssAddress=10.91.51.23:50007**
-**GreenplumAddress=10.91.51.23**
-**GreenplumPort=5533**
-**GreenplumUser=gpadmin**
-**GreenplumPasswd=**** 
-**Database=test**
-**SchemaName=public**
-**TableName=mytest3**
-**rabbit=amqp://guest:guest@localhost:5672/**
-**queue=gpss**
-**batch=50000 ** 
+**GpssAddress=10.91.51.23:50007**<br/>
+**GreenplumAddress=10.91.51.23**<br/>
+**GreenplumPort=5533**<br/>
+**GreenplumUser=gpadmin**<br/>
+**GreenplumPasswd=****<br/> 
+**Database=test**<br/>
+**SchemaName=public**<br/>
+**TableName=mytest3**<br/>
+**rabbit=amqp://guest:guest@localhost:5672/**<br/>
+**queue=gpss**<br/>
+**batch=50000 ** <br/>
 
 queue is the rabbitmq queue name while batch is the amount of batching that the rabbit-greenplum connector must take before pushing the data into greenplum.<br/>
 
 3) Run the connector:<br/>
-./gpss-rabbit-greenplum-connect 
-Danieles-MBP:bin dpalaia$ ./gpss-rabbit-greenplum-connector 
-connecting to grpc server
-connected
-2019/02/26 17:01:30  [*] Waiting for messages. To exit press CTRL+C<br/>
+**./gpss-rabbit-greenplum-connect<br/> 
+**Danieles-MBP:bin dpalaia$ ./gpss-rabbit-greenplum-connector <br/>
+**connecting to grpc server<br/>
+**connected<br/>
+**2019/02/26 17:01:30  [*] Waiting for messages. To exit press CTRL+C<br/>
 
 4) Populate the queue with the UI interface (Publish command)<br/>
 ![Screenshot](queue2.png)
