@@ -12,7 +12,7 @@ These are the steps to run the software:
 Prerequisites:
 
 1) Activate the gpss extension on the greenplum database you want to use (for example test)<br/>
-   test=# CREATE EXTENSION gpss;
+   <h2> test=# CREATE EXTENSION gpss;</h2>
    
 2) create a table inside this database with a json field on it (for example mytest3)<br/>
    test=# create table mytest3(data json);
