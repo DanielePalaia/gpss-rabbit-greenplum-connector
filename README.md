@@ -44,17 +44,17 @@ Running the application:
 
 2. Use the file properties.ini (that should be place in the same directory of the binary in order to instruct the program with this properties<br/>
 
-**GpssAddress=10.91.51.23:50007**<br/>
-**GreenplumAddress=10.91.51.23**<br/>
-**GreenplumPort=5533**<br/>
-**GreenplumUser=gpadmin**<br/>
-**GreenplumPasswd=**<br/> 
-**Database=test**<br/>
-**SchemaName=public**<br/>
-**TableName=mytest3**<br/>
-**rabbit=amqp://guest:guest@localhost:5672/**<br/>
-**queue=gpss**<br/>
-**batch=50000** <br/>
+  **GpssAddress=10.91.51.23:50007**<br/>
+  **GreenplumAddress=10.91.51.23**<br/>
+  **GreenplumPort=5533**<br/>
+  **GreenplumUser=gpadmin**<br/>
+  **GreenplumPasswd=**<br/> 
+  **Database=test**<br/>
+  **SchemaName=public**<br/>
+  **TableName=mytest3**<br/>
+  **rabbit=amqp://guest:guest@localhost:5672/**<br/>
+  **queue=gpss**<br/>
+  **batch=50000** <br/>
 
 queue is the rabbitmq queue name while batch is the amount of batching that the rabbit-greenplum connector must take before pushing the data into greenplum.<br/>
 
