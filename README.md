@@ -1,4 +1,4 @@
-This software is intended to be a simple connector rabbitmq-greenplum, similar to the gpsscli which is supporting kafka.
+This software is intended to be a simple (non production ready) connector rabbitmq-greenplum, similar to the default gpsscli which is supporting kafka.
 
 It is based on gpss (greenplum streaming server) so will work just with greenplum 5.16 or above.
 https://gpdb.docs.pivotal.io/5160/greenplum-stream/overview.html
@@ -60,4 +60,17 @@ queue is the rabbitmq queue name while batch is the amount of batching that the 
 
 3) Run the connector:
 ./gpss-rabbit-greenplum-connect 
-  ![Screenshot](connector.png)
+Danieles-MBP:bin dpalaia$ ./gpss-rabbit-greenplum-connector 
+connecting to grpc server
+connected
+2019/02/26 17:01:30  [*] Waiting for messages. To exit press CTRL+C
+
+4) Populate the queue with the UI interface (Publish command)
+![Screenshot](queue2.png)
+
+5) Once you publish more messages than the batch value you should then see the table populated and you can restart publishing.
+
+6) In order to make tests easy I also developed a simple consumer inside rabbit-client, you can find a binary for macos always inside bin.
+If you run
+./rabbit-client
+he will take the same configuration that is inside properties.ini and will start to fire messages inside the same queue.
