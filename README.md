@@ -72,5 +72,5 @@ queue is the rabbitmq queue name while batch is the amount of batching that the 
 
 6. In order to make tests easy I also developed a simple consumer inside rabbit-client, you can find a binary for macos always inside bin.
 If you run<br/>
-./rabbit-client
+**./rabbit-client**<br/>
 he will take the same configuration that is inside properties.ini and will start to fire messages inside the same queue.
