@@ -10,7 +10,7 @@ import (
 
 func main() {
 
-	prop, _ := ReadPropertiesFile("/Users/dpalaia/GO/src/gpssclient/properties.ini")
+	prop, _ := ReadPropertiesFile("./properties.ini")
 	port, _ := strconv.Atoi(prop["GreenplumPort"])
 	gpssClient := MakeGpssClient(prop["GpssAddress"], prop["GreenplumAddress"], int32(port), prop["GreenplumUser"], "", prop["Database"], prop["SchemaName"], prop["TableName"])
 	gpssClient.ConnectToGrpcServer()
