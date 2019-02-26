@@ -11,14 +11,14 @@ These are the steps to run the software:
 
 Prerequisites:
 
-1. Activate the gpss extension on the greenplum database you want to use (for example test)<br/>
-   **test=# CREATE EXTENSION gpss;**<br/>
+1. Activate the gpss extension on the greenplum database you want to use (for example test)<br/><br/>
+   **test=# CREATE EXTENSION gpss;**<br/><br/>
    
-2. create a table inside this database with a json field on it (for example mytest3)<br/>
-   **test=# create table mytest3(data json);**<br/>
+2. create a table inside this database with a json field on it (for example mytest3)<br/><br/>
+   **test=# create table mytest3(data json);**<br/><br/>
    
-3. Run a gpss server with the right configuration (ex):<br/>
-  **gpss ./gpsscfg1.json --log-dir ./gpsslogs** <br/>
+3. Run a gpss server with the right configuration (ex):<br/><br/>
+  **gpss ./gpsscfg1.json --log-dir ./gpsslogs** <br/><br/>
   where gpsscfg1.json is <br/><br/>
   {<br/>
     "ListenAddress": {<br/>
@@ -30,7 +30,7 @@ Prerequisites:
         "Host": "",<br/>
         "Port": 8086<br/>
     }<br/>
-}<br/>
+}<br/><br/>
 
 4. download, install and run a rabbitmq broker<br/>
  **./rabbitmq-server**
@@ -40,7 +40,7 @@ Prerequisites:
   
 Running the application:
 
-1. The application is written in GO. If you are using MacOs then you can directly use the binary version inside /bin of this project called: gpss-rabbit-greenplum-connect otherwise you must compile it with the GO compiler
+1. The application is written in GO. If you are using MacOs then you can directly use the binary version inside /bin of this project called: gpss-rabbit-greenplum-connect otherwise you must compile it with the GO compiler<br/>
 
 2. Use the file properties.ini (that should be place in the same directory of the binary in order to instruct the program with this properties<br/>
 
