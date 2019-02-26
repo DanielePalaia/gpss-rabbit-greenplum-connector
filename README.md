@@ -32,13 +32,13 @@ Prerequisites:
     }<br/>
 }<br/><br/>
 
-4. download, install and run a rabbitmq broker<br/>
+4. download, install and run a rabbitmq broker<br/><br/>
  **./rabbitmq-server**
 
 5. Create a rabbitmq transient queue with the rabbitmq UI interface you want the connector to connect (es gpss):<br/>
-  ![Screenshot](queue.png)
+  ![Screenshot](queue.png)<br/>
   
-Running the application:
+Running the application:<br/>
 
 1. The application is written in GO. If you are using MacOs then you can directly use the binary version inside /bin of this project called: gpss-rabbit-greenplum-connect otherwise you must compile it with the GO compiler<br/>
 
