@@ -45,7 +45,7 @@ func (client *rabbitClient) connect() (*amqp.Channel, amqp.Queue) {
 
 	q, err := ch.QueueDeclare(
 		client.queueString, // name
-		false,              // durable
+		true,               // durable
 		false,              // delete when usused
 		false,              // exclusive
 		false,              // no-wait

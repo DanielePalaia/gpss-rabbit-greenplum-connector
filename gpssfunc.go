@@ -119,38 +119,6 @@ func (client *gpssClient) WriteToGreenplum(buffer []string) {
 	}
 }
 
-/*
-func (client *gpssClient) WriteToGreenplum(columnFile string, valueFile string) {
-
-	client.prepareForWriting(columnFile)
-
-	lines := client.readCsvFile(valueFile)
-	fmt.Println("number of lines", len(lines))
-	rowData := make([]*gpss.RowData, len(lines))
-	for i, line := range lines {
-		fmt.Println("number of words", len(line))
-		dbValue := make([]*gpss.DBValue, len(line))
-		for j, column := range line {
-			fmt.Println("value: ", column)
-			dbValue[j] = new(gpss.DBValue)
-			dbValue[j].DBType = &gpss.DBValue_StringValue{StringValue: string(column)}
-		}
-
-		rowLine := gpss.Row{Columns: dbValue}
-		rowData[i] = new(gpss.RowData)
-		//databytes, _ := rowLine.Descriptor()
-		rowData[i].Data, _ = proto.Marshal(&rowLine)
-	}
-
-	req := gpss.WriteRequest{Session: client.session, Rows: rowData}
-	_, err := client.client.Write(context.Background(), &req)
-	if err != nil {
-		log.Fatalf("fail to open request to write: %v", err)
-	}
-
-}
-*/
-
 func (client *gpssClient) CloseRequest() {
 
 	closeRequest := gpss.CloseRequest{Session: client.session}

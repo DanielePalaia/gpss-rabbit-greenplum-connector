@@ -39,7 +39,7 @@ func connect(connString string) *amqp.Channel {
 func send(ch *amqp.Channel, queueName string) {
 	q, err := ch.QueueDeclare(
 		queueName, // name
-		false,     // durable
+		true,      // durable
 		false,     // delete when unused
 		false,     // exclusive
 		false,     // no-wait
