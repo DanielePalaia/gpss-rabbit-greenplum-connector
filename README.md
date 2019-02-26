@@ -12,13 +12,13 @@ These are the steps to run the software:
 Prerequisites:
 
 1) Activate the gpss extension on the greenplum database you want to use (for example test)<br/>
-   **test=# CREATE EXTENSION gpss;**
+   **test=# CREATE EXTENSION gpss;**<br/>
    
-2) create a table inside this database with a json field on it (for example mytest3)
-   **test=# create table mytest3(data json);**
+2) create a table inside this database with a json field on it (for example mytest3)<br/>
+   **test=# create table mytest3(data json);**<br/>
    
 3) Run a gpss server with the right configuration (ex):<br/>
-  gpss ./gpsscfg1.json --log-dir ./gpsslogs <br/>
+  **gpss ./gpsscfg1.json --log-dir ./gpsslogs** <br/>
   where gpsscfg1.json is <br/><br/>
   {
     "ListenAddress": {
@@ -33,7 +33,7 @@ Prerequisites:
 }<br/>
 
 4) download, install and run a rabbitmq broker<br/>
- ./rabbitmq-server
+ **./rabbitmq-server**
 
 5) Create a rabbitmq transient queue with the rabbitmq UI interface you want the connector to connect (es gpss):<br/>
   ![Screenshot](queue.png)
@@ -44,17 +44,17 @@ Running the application:
 
 2) Use the file properties.ini (that should be place in the same directory of the binary in order to instruct the program with this properties<br/>
 
-GpssAddress=10.91.51.23:50007
-GreenplumAddress=10.91.51.23
-GreenplumPort=5533
-GreenplumUser=gpadmin
-GreenplumPasswd=**** 
-Database=test
-SchemaName=public
-TableName=mytest3
-rabbit=amqp://guest:guest@localhost:5672/
-queue=gpss
-batch=50000  
+**GpssAddress=10.91.51.23:50007**
+**GreenplumAddress=10.91.51.23**
+**GreenplumPort=5533**
+**GreenplumUser=gpadmin**
+**GreenplumPasswd=**** 
+**Database=test**
+**SchemaName=public**
+**TableName=mytest3**
+**rabbit=amqp://guest:guest@localhost:5672/**
+**queue=gpss**
+**batch=50000 ** 
 
 queue is the rabbitmq queue name while batch is the amount of batching that the rabbit-greenplum connector must take before pushing the data into greenplum.<br/>
 
