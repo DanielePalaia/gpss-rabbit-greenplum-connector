@@ -35,7 +35,7 @@ Prerequisites:
 4. download, install and run a rabbitmq broker<br/><br/>
  **./rabbitmq-server**
 
-5. Create a rabbitmq transient queue with the rabbitmq UI interface you want the connector to connect (es gpss):<br/>
+5. Create a rabbitmq durable queue with the rabbitmq UI interface you want the connector to connect (es gpss):<br/>
   ![Screenshot](queue.png)<br/>
   
 Running the application:<br/>
