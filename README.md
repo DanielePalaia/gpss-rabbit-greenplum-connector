@@ -77,12 +77,12 @@ queue is the rabbitmq queue name while batch is the amount of batching that the 
 
 6. This is the result you should see:<br/>
 
-**test=# select * from companies limit 3;<br/><br/>
-  id  | city |     foundation      | description |                           data                           
-------+------+---------------------+-------------+----------------------------------------------------------<br/>
-777  | Rome | 2017-08-19 12:17:55 | my description | { "cust_id": 1313131, "month": 12, "expenses": 1313.13 }<br/>
-777  | Rome | 2017-08-19 12:17:55 | my description | { "cust_id": 1313131, "month": 12, "expenses": 1313.13 }<br/>
-777  | Rome | 2017-08-19 12:17:55 | my description | { "cust_id": 1313131, "month": 12, "expenses": 1313.13 }<br/>
+**test=# select * from companies limit 3;**<br/><br/>
+**  id  | city |     foundation      | description |                           data  <br/**                         
+**------+------+---------------------+-------------+----------------------------------------------------------<br/>**
+**777  | Rome | 2017-08-19 12:17:55 | my description | { "cust_id": 1313131, "month": 12, "expenses": 1313.13 }<br/>**
+**777  | Rome | 2017-08-19 12:17:55 | my description | { "cust_id": 1313131, "month": 12, "expenses": 1313.13 }<br/>**
+**777  | Rome | 2017-08-19 12:17:55 | my description | { "cust_id": 1313131, "month": 12, "expenses": 1313.13 }<br/>**
 
 6. In order to make tests easy I also developed a simple consumer inside rabbit-client, you can find a binary for macos always inside bin.
 If you run<br/>
