@@ -6,6 +6,8 @@ import (
 	"fmt"
 	"gpssclient/gpss"
 	"log"
+	"strconv"
+	"strings"
 
 	"github.com/golang/protobuf/proto"
 	"google.golang.org/grpc"
@@ -79,12 +81,27 @@ func (client *gpssClient) DisconnectToGreenplumDatabase() {
 
 }
 
-func (client *gpssClient) prepareForWriting() {
+func (client *gpssClient) DescribeTable() *gpss.Columns {
 
+	fmt.Println("table informations")
+	describeReq := gpss.DescribeTableRequest{Session: client.session, TableName: client.TableName, SchemaName: client.SchemaName}
+
+	columns, _ := client.client.DescribeTable(context.Background(), &describeReq)
+
+	return columns
+
+}
+
+func (client *gpssClient) prepareForWriting(cols *gpss.Columns) {
+
+	fmt.Println("prepare for writing")
 	// Prepare for writing
-	columns := make([]string, 1)
-
-	columns[0] = "data"
+	columns := make([]string, len(cols.Columns))
+	// Looping over table columns as defined in greenplum
+	for i, col := range cols.Columns {
+		//fmt.Println("field: " + col.Name)
+		columns[i] = col.Name
+	}
 
 	insertOption := gpss.InsertOption{ErrorLimitCount: 25, ErrorLimitPercentage: 25, TruncateTable: false, InsertColumns: columns}
 	openRequestInsertOption := gpss.OpenRequest_InsertOption{InsertOption: &insertOption}
@@ -96,15 +113,63 @@ func (client *gpssClient) prepareForWriting() {
 
 }
 
+func convertType(field string, databaseType string) *gpss.DBValue {
+	//	*DBValue_Int32Value
+	//	*DBValue_Int64Value
+	//	*DBValue_Float32Value
+	//	*DBValue_Float64Value
+	//	*DBValue_StringValue
+	//	*DBValue_BytesValue
+	//	*DBValue_TimeStampValue
+	//	*DBValue_NullValue
+	//fmt.Println("field is: " + field + "length: " + string(len(field)))
+	dbValue := new(gpss.DBValue)
+	// Consider NULL value
+	if field == "NULL" {
+		dbValue.DBType = &gpss.DBValue_NullValue{}
+		return dbValue
+	}
+	if strings.Contains(databaseType, "int") || strings.Contains(databaseType, "serial") {
+		if n, err := strconv.Atoi(field); err == nil {
+			dbValue.DBType = &gpss.DBValue_Int64Value{Int64Value: int64(n)}
+		} else {
+			fmt.Println(field, "is not an integer.")
+		}
+	} else if strings.Contains(databaseType, "float") || strings.Contains(databaseType, "numeric") || strings.Contains(databaseType, "decimal") {
+		if n, err := strconv.ParseFloat(field, 64); err == nil {
+			dbValue.DBType = &gpss.DBValue_Float64Value{Float64Value: float64(n)}
+		}
+	} else {
+		dbValue.DBType = &gpss.DBValue_StringValue{StringValue: field}
+	} /*else if strings.Contains(databaseType, "timestamp") {
+		dbValue.DBType = &gpss.DBValue_TimeStampValue{TimeStampValue: string(field)}
+	} */
+
+	return dbValue
+}
+
 func (client *gpssClient) WriteToGreenplum(buffer []string) {
 
-	client.prepareForWriting()
+	// Take table information from greenplum
+	cols := client.DescribeTable()
+
+	// Prepare table for writing
+	client.prepareForWriting(cols)
+
+	// For every entry buffered in memory check for fields
 	rowData := make([]*gpss.RowData, len(buffer))
 	for i, line := range buffer {
-		//fmt.Println("value: ", line)
-		dbValue := make([]*gpss.DBValue, 1)
-		dbValue[0] = new(gpss.DBValue)
-		dbValue[0].DBType = &gpss.DBValue_StringValue{StringValue: string(line)}
+
+		dbValue := make([]*gpss.DBValue, len(cols.Columns))
+
+		// From an entry composed by lines return a list
+		fields := strings.Split(strings.Replace(line, "\r\n", "\n", -1), "\n")
+
+		for j, field := range fields {
+
+			dbValue[j] = convertType(field, cols.Columns[j].DatabaseType)
+
+		}
 
 		rowLine := gpss.Row{Columns: dbValue}
 		rowData[i] = new(gpss.RowData)
@@ -117,9 +182,11 @@ func (client *gpssClient) WriteToGreenplum(buffer []string) {
 	if err != nil {
 		log.Fatalf("fail to open request to write: %v", err)
 	}
+
+	client.closeRequest()
 }
 
-func (client *gpssClient) CloseRequest() {
+func (client *gpssClient) closeRequest() {
 
 	closeRequest := gpss.CloseRequest{Session: client.session}
 	tStats, err := client.client.Close(context.Background(), &closeRequest)

@@ -78,11 +78,10 @@ func (client *rabbitClient) consume() {
 		for d := range msgs {
 			//log.Printf("Received a message: %s", d.Body)
 
-			if count >= client.size {
+			if count == client.size {
 				log.Printf("im writing")
 				client.gpssclient.ConnectToGreenplumDatabase()
 				client.gpssclient.WriteToGreenplum(client.buffer)
-				client.gpssclient.CloseRequest()
 				client.gpssclient.DisconnectToGreenplumDatabase()
 				count = 0
 			}
