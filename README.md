@@ -72,8 +72,8 @@ queue is the rabbitmq queue name while batch is the amount of batching that the 
 
 4. Populate the queue with the UI interface. Every line is a field so for example (first table):<br/>
 ![Screenshot](queue2.png)
-
-or for the second table 
+<br/>
+or for the second table <br/>
 ![Screenshot](queue3.png)
 
 
