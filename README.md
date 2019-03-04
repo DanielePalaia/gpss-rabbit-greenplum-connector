@@ -59,7 +59,7 @@ Running the application:<br/>
     **TableName=mytest3**<br/>
     **rabbit=amqp://guest:guest@localhost:5672/**<br/>
     **queue=gpss**<br/>
-    **batch=50000** <br/>
+    **batch=10000** <br/>
 
 queue is the rabbitmq queue name while batch is the amount of batching that the rabbit-greenplum connector must take before pushing the data into greenplum.<br/>
 
