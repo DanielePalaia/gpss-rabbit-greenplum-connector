@@ -74,6 +74,7 @@ queue is the rabbitmq queue name while batch is the amount of batching that the 
 ![Screenshot](queue2.png)
 <br/>
 or for the second table <br/>
+<br/>
 ![Screenshot](queue3.png)
 
 
