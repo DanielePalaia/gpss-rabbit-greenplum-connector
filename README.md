@@ -3,7 +3,7 @@ This software is intended to be a simple (non production ready) connector rabbit
 It is based on gpss (greenplum streaming server) so will work just with greenplum 5.16 or above.
 https://gpdb.docs.pivotal.io/5160/greenplum-stream/overview.html
 
-The connector will attach to a rabbitmq queue specified at configuration time will batch a certain amount of elements specified and will ask the gpss server to push them on a greenplum table.
+The connector will attach to a rabbitmq queue specified at configuration time will batch a certain amount of elements specified in memory and will then ask the gpss server to push them on a greenplum table.
 
 These are the steps to run the software:
 
@@ -15,7 +15,7 @@ Prerequisites:
 2. create a table inside this database with a json field on it (for example mytest3)<br/><br/>
    **test=# create table mytest3(data json);**<br/><br/>
    
-   Update: Now the connector is generic and can work with anytype of table (it takes field name and type information    directly from the server). Let's try a more complex table like this one:<br/><br/>
+   Update: Now the connector is generic and can work with anytype of table (it takes field names and types information    directly from the server). Let's try a more complex table like this one:<br/><br/>
    
    **test=# create table companies(id varchar 200, city varchar 200, foundation timestamp, description text, data json);<br/><br/>**<br/><br/>
    
@@ -73,9 +73,16 @@ queue is the rabbitmq queue name while batch is the amount of batching that the 
 4. Populate the queue with the UI interface. Every line is a field so for example (companies table):<br/>
 ![Screenshot](queue3.png)
 
-
-
 5. Once you publish more messages than the batch value you should then see the table populated and you can restart publishing.<br/>
+
+6. This is the result you should see:<br/>
+
+**test=# select * from companies limit 3;<br/><br/>
+  id  | city |     foundation      | description |                           data                           
+------+------+---------------------+-------------+----------------------------------------------------------<br/>
+777  | Rome | 2017-08-19 12:17:55 | my description | { "cust_id": 1313131, "month": 12, "expenses": 1313.13 }<br/>
+777  | Rome | 2017-08-19 12:17:55 | my description | { "cust_id": 1313131, "month": 12, "expenses": 1313.13 }<br/>
+777  | Rome | 2017-08-19 12:17:55 | my description | { "cust_id": 1313131, "month": 12, "expenses": 1313.13 }<br/>
 
 6. In order to make tests easy I also developed a simple consumer inside rabbit-client, you can find a binary for macos always inside bin.
 If you run<br/>
