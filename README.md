@@ -78,7 +78,7 @@ queue is the rabbitmq queue name while batch is the amount of batching that the 
 6. This is the result you should see:<br/>
 
 **test=# select * from companies limit 3;**<br/><br/>
-**  id  | city |     foundation      | description |                           data  <br/**                         
+**  id  | city |     foundation      | description |                           data  <br/>**                         
 **------+------+---------------------+-------------+----------------------------------------------------------<br/>**
 **777  | Rome | 2017-08-19 12:17:55 | my description | { "cust_id": 1313131, "month": 12, "expenses": 1313.13 }<br/>**
 **777  | Rome | 2017-08-19 12:17:55 | my description | { "cust_id": 1313131, "month": 12, "expenses": 1313.13 }<br/>**
