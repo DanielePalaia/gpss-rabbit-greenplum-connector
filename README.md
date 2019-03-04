@@ -74,7 +74,7 @@ queue is the rabbitmq queue name while batch is the amount of batching that the 
 ![Screenshot](queue2.png)
 <br/>
 (second table)
-![Screenshot](queue3.png)
+![Screenshot](queue2.png)
 
 5. Once you publish more messages than the batch value you should then see the table populated and you can restart publishing.<br/>
 
