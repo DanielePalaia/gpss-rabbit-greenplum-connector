@@ -17,7 +17,7 @@ Prerequisites:
    
    Update: Now the connector is generic and can work with anytype of table (it takes field names and types information    directly from the server). Let's try a more complex table like this one:<br/><br/>
    
-   **test=# create table companies(id varchar 200, city varchar 200, foundation timestamp, description text, data json);<br/><br/>**<br/>
+   **test=# create table companies(id varchar 200, city varchar 200, foundation timestamp, description text, data json);<br/><br/>**
    
    ![Screenshot](definition.png)
    
