@@ -5,8 +5,6 @@ https://gpdb.docs.pivotal.io/5160/greenplum-stream/overview.html
 
 The connector will attach to a rabbitmq queue specified at configuration time will batch a certain amount of elements specified and will ask the gpss server to push them on a greenplum table.
 
-For the moment the connector is supporting just json format (elements must be strings of json in rabbitmq and the resulting greenplum table needs to be a table with a json field).
-
 These are the steps to run the software:
 
 Prerequisites:
@@ -16,6 +14,13 @@ Prerequisites:
    
 2. create a table inside this database with a json field on it (for example mytest3)<br/><br/>
    **test=# create table mytest3(data json);**<br/><br/>
+   
+   Update: Now the connector is generic and can work with anytype of table (it takes field name and type information    directly from the server). Let's try a more complex table like this one:<br/><br/>
+   
+   **test=# create table companies(id varchar 200, city varchar 200, foundation timestamp, description text, data json);<br/><br/>**<br/><br/>
+   
+   ![Screenshot](definition.png)
+   
    
 3. Run a gpss server with the right configuration (ex):<br/><br/>
   **gpss ./gpsscfg1.json --log-dir ./gpsslogs** <br/><br/>
@@ -65,8 +70,11 @@ queue is the rabbitmq queue name while batch is the amount of batching that the 
 **connected**<br/>
 **2019/02/26 17:01:30  [*] Waiting for messages. To exit press CTRL+C**<br/>
 
-4. Populate the queue with the UI interface (Publish command)<br/>
+4. Populate the queue with the UI interface. Every line is a field so for example (first table):<br/>
 ![Screenshot](queue2.png)
+<br/>
+(second table)<br/>
+![Screenshot](queue3.png)
 
 5. Once you publish more messages than the batch value you should then see the table populated and you can restart publishing.<br/>
 
