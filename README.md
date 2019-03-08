@@ -7,7 +7,7 @@ The connector will attach to a rabbitmq queue specified at configuration time wi
 
 These are the steps to run the software:
 
-Prerequisites:
+**Prerequisites:**
 
 1. Activate the gpss extension on the greenplum database you want to use (for example test)<br/><br/>
    **test=# CREATE EXTENSION gpss;**<br/><br/>
@@ -41,9 +41,24 @@ Prerequisites:
  **./rabbitmq-server**
 
 5. Create a rabbitmq durable queue with the rabbitmq UI interface you want the connector to connect (es gpss):<br/>
-  ![Screenshot](queue.png)<br/>
+  ![Screenshot](queue.png)<br/> </br>
   
-Running the application:<br/>
+**Compiling and Installing the application** </br> 
+
+The application is written in GO. Binary for MacosX and Linux are already provided inside the /bin folder. <br/>
+If you need to compile and install it you need to download a GO compiler (ex for Linux - ubuntu) </br>
+
+1. sudo apt-get install golang-go <br>
+2. export GOPATH=/home/user/GO <br>
+3. create a directory src inside GO and go there </br>
+4. git clone https://github.com/DanielePalaia/gpss-rabbit-greenplum-connector and enter the project</br>
+5. go get github.com/golang/protobuf/proto </br>
+   go get github.com/streadway/amqp </br>
+   go get google.golang.org/grpc </br>
+   cp -fR ./gpss /home/user/GO/src/gpssclient </br>
+6. go install gss-rabbit-greenplum-connector and you will find your binary in GOPATH/bin </br> </br>
+  
+**Running the application:**<br/>
 
 1. The application is written in GO. If you are using MacOs then you can directly use the binary version inside /bin of this project called: gpss-rabbit-greenplum-connect otherwise you must compile it with the GO compiler<br/>
 
