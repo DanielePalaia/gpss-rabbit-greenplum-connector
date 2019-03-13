@@ -12,7 +12,7 @@ func main() {
 
 	prop, _ := ReadPropertiesFile("./properties.ini")
 	port, _ := strconv.Atoi(prop["GreenplumPort"])
-	gpssClient := MakeGpssClient(prop["GpssAddress"], prop["GreenplumAddress"], int32(port), prop["GreenplumUser"], "", prop["Database"], prop["SchemaName"], prop["TableName"])
+	gpssClient := MakeGpssClient(prop["GpssAddress"], prop["GreenplumAddress"], int32(port), prop["GreenplumUser"], prop["GreenplumPasswd"], prop["Database"], prop["SchemaName"], prop["TableName"])
 	gpssClient.ConnectToGrpcServer()
 	batch, _ := strconv.Atoi(prop["batch"])
 	rabbit := makeRabbitClient(prop["rabbit"], prop["queue"], batch, gpssClient)
