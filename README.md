@@ -1,3 +1,5 @@
+Update: In branch V2 new functionality added to persist batch in disk, that can be recovered after a crash of network issue of the connector (not tested yet) and better logs and refactoring
+
 This software is intended to be a simple (non production ready) connector rabbitmq-greenplum, similar to the default gpsscli which is supporting kafka.
 
 It is based on gpss (greenplum streaming server) so will work just with greenplum 5.16 or above.
@@ -55,8 +57,11 @@ Running the application:<br/>
     **rabbit=amqp://guest:guest@localhost:5672/**<br/>
     **queue=gpss**<br/>
     **batch=50000** <br/>
-
+    **batch=50000** <br/>
+    **mode=1** <br/>     
+    
 queue is the rabbitmq queue name while batch is the amount of batching that the rabbit-greenplum connector must take before pushing the data into greenplum.<br/>
+If mode is set to 1 the items batched will be saved on a disk file so in case of crash or network issue at the next restart the connector will be automatically able to recover this info again<br/>
 
 3. Run the connector:<br/>
 **./gpss-rabbit-greenplum-connect**<br/> 
