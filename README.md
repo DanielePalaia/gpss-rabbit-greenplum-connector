@@ -1,4 +1,4 @@
-Update: In branch V2 a new functionality is added, to persist batch in disk, that can be recovered after a crash or network issue of the connector (not tested yet) and better logs and refactoring
+Update: In branch V2 a new functionality is added, to persist batch in disk, that can be recovered after a crash or network issue of the connector (not fully tested yet) and better logs and refactoring
 
 This software is intended to be a simple (non production ready) connector rabbitmq-greenplum, similar to the default gpsscli which is supporting kafka.
 
