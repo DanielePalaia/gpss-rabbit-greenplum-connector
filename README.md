@@ -38,7 +38,7 @@ Prerequisites:
  **./rabbitmq-server**
 
 5. Create a rabbitmq durable queue with the rabbitmq UI interface you want the connector to connect (es gpss):<br/>
-  ![Screenshot](queue.png)<br/>
+  ![Screenshot](./pics/queue.png)<br/>
   
 Running the application:<br/>
 
@@ -71,7 +71,7 @@ If mode is set to 1 the items batched will be saved on a disk file so in case of
 **2019/02/26 17:01:30  [*] Waiting for messages. To exit press CTRL+C**<br/>
 
 4. Populate the queue with the UI interface (Publish command)<br/>
-![Screenshot](queue2.png)
+![Screenshot](./pics/queue2.png)
 
 5. Once you publish more messages than the batch value you should then see the table populated and you can restart publishing.<br/>
 
