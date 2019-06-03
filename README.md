@@ -3,7 +3,9 @@
 This software is intended to be a simple (non production ready) connector rabbitmq-greenplum, similar to the default gpsscli which is supporting kafka.
 
 It is based on gpss (greenplum streaming server) so will work just with greenplum 5.16 or above.
-https://gpdb.docs.pivotal.io/5160/greenplum-stream/overview.html
+https://gpdb.docs.pivotal.io/5160/greenplum-stream/overview.html </br>
+
+The connector is able to use the full parallel loading capability offered by Greenplum through the gpfdist protocol </br>
 
 The connector will attach to a rabbitmq queue specified at configuration time will batch a certain amount of elements specified in memory and will then ask the gpss server to push them on a greenplum table.
 
