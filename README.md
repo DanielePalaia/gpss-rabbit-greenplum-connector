@@ -1,3 +1,5 @@
+## Summary 
+
 This software is intended to be a simple (non production ready) connector rabbitmq-greenplum, similar to the default gpsscli which is supporting kafka.
 
 It is based on gpss (greenplum streaming server) so will work just with greenplum 5.16 or above.
@@ -5,9 +7,11 @@ https://gpdb.docs.pivotal.io/5160/greenplum-stream/overview.html
 
 The connector will attach to a rabbitmq queue specified at configuration time will batch a certain amount of elements specified in memory and will then ask the gpss server to push them on a greenplum table.
 
+In the other branch of this repo, a persistent option was added in order to restore the server in case of crash without loosing items, also some log improvements was implemented.
+
 These are the steps to run the software:
 
-**Prerequisites:**
+## Prerequisites:
 
 1. Activate the gpss extension on the greenplum database you want to use (for example test)<br/><br/>
    **test=# CREATE EXTENSION gpss;**<br/><br/>
@@ -43,7 +47,7 @@ These are the steps to run the software:
 5. Create a rabbitmq durable queue with the rabbitmq UI interface you want the connector to connect (es gpss):<br/>
   ![Screenshot](queue.png)<br/> </br>
   
-**Compiling and Installing the application** </br> 
+## Compiling and Installing the application </br> 
 
 The application is written in GO. Binary for MacosX and Linux are already provided inside the /bin folder. <br/>
 If you need to compile and install it you need to download a GO compiler (ex for Linux - ubuntu) </br>
@@ -58,7 +62,7 @@ If you need to compile and install it you need to download a GO compiler (ex for
    cp -fR ./gpss /home/user/GO/src/gpssclient </br>
 6. go install gss-rabbit-greenplum-connector and you will find your binary in GOPATH/bin </br> </br>
   
-**Running the application:**<br/>
+## Running the application:<br/>
 
 1. The application is written in GO. If you are using MacOs then you can directly use the binary version inside /bin of this project called: gpss-rabbit-greenplum-connect otherwise you must compile it with the GO compiler<br/>
 
