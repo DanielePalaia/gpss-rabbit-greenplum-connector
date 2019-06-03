@@ -1,9 +1,12 @@
 ## Summary 
 
-This software is intended to be a simple (non production ready) connector rabbitmq-greenplum, similar to the default gpsscli which is supporting kafka.
+This software is intended to be a simple (non production ready) connector rabbitmq-greenplum, similar to the default gpsscli which is supporting kafka.</br>
 
 It is based on gpss (greenplum streaming server) so will work just with greenplum 5.16 or above.
 https://gpdb.docs.pivotal.io/5160/greenplum-stream/overview.html </br>
+
+GPSS is basically a grpc server, so this is pratically a grpc client written in GO.</br>
+
 
 The connector is able to use the full parallel loading capability offered by Greenplum through the gpfdist protocol </br>
 
@@ -21,7 +24,7 @@ These are the steps to run the software:
 2. create a table inside this database with a json field on it (for example mytest3)<br/><br/>
    **test=# create table mytest3(data json);**<br/><br/>
    
-   Update: Now the connector is generic and can work with anytype of table (it takes field names and types information    directly from the server). Let's try a more complex table like this one:<br/><br/>
+   Update: Originally the grpc client was working just with json, now it is able to automatically ask to the server for table definition and manage different kin of datatypes; so you can specify the table definition you want<br/><br/>
    
    **test=# create table companies(id varchar 200, city varchar 200, foundation timestamp, description text, data json);<br/><br/>**
    
