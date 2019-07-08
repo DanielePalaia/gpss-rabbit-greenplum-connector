@@ -1,10 +1,20 @@
 # Summary
-This software is intended to be a simple (non production ready) connector rabbitmq-greenplum, similar to the default gpsscli which is supporting kafka.
+This software is intended to be a simple (non production ready) connector rabbitmq-greenplum using Greenplum Streaming Service functionalities. </br>
+It is written in GO and it uses the following technologies: RabbitMQ, GO, GRPC, Greenplum GPSS. </br></br>
 
-It is based on gpss (greenplum streaming server) so will work just with greenplum 5.16 or above.
-https://gpdb.docs.pivotal.io/5160/greenplum-stream/overview.html
+The following reading can help you to better understand the software:
 
-The connector will attach to a rabbitmq queue specified at configuration time will batch a certain amount of elements specified and will ask the gpss server to push them on a greenplum table.
+**RabbitMQ:** </br>
+https://www.rabbitmq.com/ </br>
+**GRPC:**  </br>
+https://grpc.io/ </br>
+**Greenplum GPSS:**</br>
+https://gpdb.docs.pivotal.io/5160/greenplum-stream/overview.html</br>
+https://gpdb.docs.pivotal.io/5160/greenplum-stream/api/dev_client.html</br>
+
+The connector will attach to a rabbitmq queue specified at configuration time will batch a certain amount of elements specified and will ask the gpss server to push them on a greenplum table. </br>
+
+Also it supports persistency so in case the connector is stopped before it reaches the minimum batch elements to send a request to GPSS to ingest items, when restarted it will load again the lost items. </br>
 
 These are the steps to run the software:
 
@@ -82,3 +92,6 @@ he will take the same configuration that is inside properties.ini and will start
 ## Unit testing
 A functional test is provided, it takes the parameters specified in ./properties insert batch elements inside the queue specified and then is checking that these elements have been inserted correctly.
 To work properly it needs the table and the rabbitmq queue to be initially empty.
+The table should be the same as the example and so:
+</br>
+  **test=# create table companies(id varchar 200, city varchar 200, foundation timestamp, description text, data json);<br/><br/>**
