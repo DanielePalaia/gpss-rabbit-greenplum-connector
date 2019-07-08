@@ -1,6 +1,6 @@
 # Summary
 This software is intended to be a simple (non production ready) connector rabbitmq-greenplum using Greenplum Streaming Service functionalities. </br>
-It is written in GO and it uses the following technologies: RabbitMQ, GO, GRPC, Greenplum GPSS. </br></br>
+It is written in GO and it uses the following technologies: RabbitMQ, GO, GRPC, Greenplum GPSS. </br>
 
 The following reading can help you to better understand the software:
 
