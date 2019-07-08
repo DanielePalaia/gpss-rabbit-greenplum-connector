@@ -95,7 +95,7 @@ he will take the same configuration that is inside properties.ini and will start
 A functional test is provided, it takes the parameters specified in ./properties insert batch elements inside the queue specified and then is checking that these elements have been inserted correctly.
 To work properly it needs the table and the rabbitmq queue to be initially empty.
 The table should be the same as the example and so:
-</br>
+</br></br>
   **test=# create table companies(id varchar 200, city varchar 200, foundation timestamp, description text, data json);<br/><br/>**
   Then you can just go test -v ./... to let the test start
   
