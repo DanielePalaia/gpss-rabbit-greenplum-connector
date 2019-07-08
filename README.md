@@ -59,8 +59,8 @@ These are the steps to run the software:
     **batch=50000** <br/>
     **mode=1** <br/>     
     
-queue is the rabbitmq queue name while batch is the amount of batching that the rabbit-greenplum connector must take before pushing the data into greenplum.<br/>
-If mode is set to 1 the items batched will be saved on a disk file so in case of crash or network issue at the next restart the connector will be automatically able to recover this info again<br/>
+  queue is the rabbitmq queue name while batch is the amount of batching that the rabbit-greenplum connector must take         before pushing the data into greenplum.<br/>
+  If mode is set to 1 the items batched will be saved on a disk file so in case of crash or network issue at the next         restart the connector will be automatically able to recover this info again<br/>
 
 3. Run the connector:<br/>
 **./gpss-rabbit-greenplum-connect**<br/> 
