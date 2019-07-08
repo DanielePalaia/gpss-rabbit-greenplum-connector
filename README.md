@@ -96,3 +96,18 @@ The table should be the same as the example and so:
 </br>
   **test=# create table companies(id varchar 200, city varchar 200, foundation timestamp, description text, data json);<br/><br/>**
   Then you can just go test -v ./... to let the test start
+  
+## Compiling and Installing the application </br> 
+
+The application is written in GO. Binary for MacosX and Linux are already provided inside the /bin folder. <br/>
+If you need to compile and install it you need to download a GO compiler (ex for Linux - ubuntu) </br>
+
+1. sudo apt-get install golang-go <br>
+2. export GOPATH=/home/user/GO <br>
+3. create a directory src inside GO and go there </br>
+4. git clone https://github.com/DanielePalaia/gpss-rabbit-greenplum-connector and enter the project</br>
+5. go get github.com/golang/protobuf/proto </br>
+   go get github.com/streadway/amqp </br>
+   go get google.golang.org/grpc </br>
+   cp -fR ./gpss /home/user/GO/src/gpssclient </br>
+6. go install gss-rabbit-greenplum-connector and you will find your binary in GOPATH/bin </br> </br>
