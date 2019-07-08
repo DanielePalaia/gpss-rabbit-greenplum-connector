@@ -1,5 +1,4 @@
-Update: In branch V2 a new functionality is added, to persist batch in disk, that can be recovered after a crash or network issue of the connector (not fully tested yet) and better logs and refactoring
-
+# Summary
 This software is intended to be a simple (non production ready) connector rabbitmq-greenplum, similar to the default gpsscli which is supporting kafka.
 
 It is based on gpss (greenplum streaming server) so will work just with greenplum 5.16 or above.
@@ -7,11 +6,9 @@ https://gpdb.docs.pivotal.io/5160/greenplum-stream/overview.html
 
 The connector will attach to a rabbitmq queue specified at configuration time will batch a certain amount of elements specified and will ask the gpss server to push them on a greenplum table.
 
-For the moment the connector is supporting just json format (elements must be strings of json in rabbitmq and the resulting greenplum table needs to be a table with a json field).
-
 These are the steps to run the software:
 
-Prerequisites:
+## Prerequisites
 
 1. Activate the gpss extension on the greenplum database you want to use (for example test)<br/><br/>
    **test=# CREATE EXTENSION gpss;**<br/><br/>
@@ -40,7 +37,7 @@ Prerequisites:
 5. Create a rabbitmq durable queue with the rabbitmq UI interface you want the connector to connect (es gpss):<br/>
   ![Screenshot](./pics/queue.png)<br/>
   
-Running the application:<br/>
+## Running the application
 
 1. The application is written in GO. If you are using MacOs then you can directly use the binary version inside /bin of this project called: gpss-rabbit-greenplum-connect otherwise you must compile it with the GO compiler<br/>
 
@@ -78,3 +75,7 @@ If mode is set to 1 the items batched will be saved on a disk file so in case of
 If you run<br/>
 **./rabbit-client**<br/>
 he will take the same configuration that is inside properties.ini and will start to fire messages inside the same queue.
+
+## Unit testing
+A functional test is provided, it takes the parameters specified in ./properties insert batch elements inside the queue specified and then is checking that these elements have been inserted correctly.
+To work properly it needs the table and the rabbitmq queue to be initially empty.
