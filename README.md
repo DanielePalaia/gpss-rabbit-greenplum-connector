@@ -82,6 +82,8 @@ These are the steps to run the software:
 4. Populate the queue with the UI interface (Publish command)<br/></br>
 ![Screenshot](./pics/queue3.png)
 
+Every line correspond to the respective table field.
+
 5. Once you publish more messages than the batch value you should then see the table populated and you can restart publishing.<br/>
 
 6. In order to make tests easy I also developed a simple consumer inside rabbit-client, you can find a binary for macos always inside bin.
