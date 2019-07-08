@@ -1,14 +1,4 @@
 ## Summary 
-
-**Note: Please be aware that the last update branch is the V2.**</br>
-**It is more raliable, it contains "persistency option", functional tests and better logging.**</br>
-**It will be promoted as master soon.**</br>
-**and you can find it in**</br>
-**https://github.com/DanielePalaia/gpss-rabbit-greenplum-connector/tree/V2**</br>
-
-git clone -b V2 https://github.com/DanielePalaia/gpss-rabbit-greenplum-connector
-
-
 This software is intended to be a simple (non production ready) connector rabbitmq-greenplum, similar to the default gpsscli which is supporting kafka.</br>
 
 It is based on gpss (greenplum streaming server) so will work just with greenplum 5.16 or above.
