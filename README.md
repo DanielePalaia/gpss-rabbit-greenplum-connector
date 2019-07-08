@@ -13,8 +13,11 @@ These are the steps to run the software:
 1. Activate the gpss extension on the greenplum database you want to use (for example test)<br/><br/>
    **test=# CREATE EXTENSION gpss;**<br/><br/>
    
-2. create a table inside this database with a json field on it (for example mytest3)<br/><br/>
-   **test=# create table mytest3(data json);**<br/><br/>
+2. Create Greenplum table to be ingested
+   
+   **test=# create table companies(id varchar 200, city varchar 200, foundation timestamp, description text, data json);<br/><br/>**
+   
+   ![Screenshot](./pics/definition.png)
    
 3. Run a gpss server with the right configuration (ex):<br/><br/>
   **gpss ./gpsscfg1.json --log-dir ./gpsslogs** <br/><br/>
