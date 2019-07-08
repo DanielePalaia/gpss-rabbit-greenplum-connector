@@ -36,6 +36,6 @@ func main() {
 	/* Generate teh rabbit connection */
 	rabbit := makeRabbitClient(prop["rabbit"], prop["queue"], batch, gpssClient, mode, batchFile)
 	rabbit.connect()
-	rabbit.consume()
+	rabbit.consume(true)
 
 }

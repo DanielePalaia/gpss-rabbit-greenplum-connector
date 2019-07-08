@@ -75,7 +75,7 @@ func (client *rabbitClient) connect() (*amqp.Channel, amqp.Queue) {
 
 }
 
-func (client *rabbitClient) consume() {
+func (client *rabbitClient) consume(mode bool) {
 	msgs, err := client.channel.Consume(
 		client.queue.Name, // queue
 		"",                // consumer
@@ -98,6 +98,9 @@ func (client *rabbitClient) consume() {
 				client.writeToFile(string(d.Body))
 			}
 
+			client.buffer[count] = string(d.Body)
+			count++
+
 			if count == client.size {
 				log.Printf("Batch reached: I'm sending request to write to gpss/gprc server")
 				client.gpssclient.ConnectToGreenplumDatabase()
@@ -108,14 +111,20 @@ func (client *rabbitClient) consume() {
 				}
 				client.gpssclient.DisconnectToGreenplumDatabase()
 				count = 0
+				// Just for testing purpose
+				if mode == false {
+					close(forever)
+				}
+
 			}
-			client.buffer[count] = string(d.Body)
-			count++
 		}
+
 	}()
 
 	log.Printf(" [*] Waiting for messages. To exit press CTRL+C")
+
 	<-forever
+
 }
 
 func (client *rabbitClient) writeToFile(message string) {
