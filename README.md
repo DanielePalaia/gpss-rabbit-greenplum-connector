@@ -69,7 +69,7 @@ These are the steps to run the software:
 **connected**<br/>
 **2019/02/26 17:01:30  [*] Waiting for messages. To exit press CTRL+C**<br/>
 
-4. Populate the queue with the UI interface (Publish command)<br/></br?
+4. Populate the queue with the UI interface (Publish command)<br/></br>
 ![Screenshot](./pics/queue3.png)
 
 5. Once you publish more messages than the batch value you should then see the table populated and you can restart publishing.<br/>
