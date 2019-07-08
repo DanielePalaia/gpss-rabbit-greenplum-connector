@@ -3,7 +3,7 @@
 **Note: Please be aware that the last update branch is the V2.**</br>
 **It is more raliable, it contains "persistency option", functional tests and better logging.**</br>
 **It will be promoted as master soon.**</br>
-**and you can find it in **</br>
+**and you can find it in**</br>
 **https://github.com/DanielePalaia/gpss-rabbit-greenplum-connector/tree/V2**</br>
 
 git clone -b V2 https://github.com/DanielePalaia/gpss-rabbit-greenplum-connector
