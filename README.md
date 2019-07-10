@@ -77,18 +77,19 @@ test=# create table companies(id varchar 200, city varchar 200, foundation times
     rabbit=amqp://guest:guest@localhost:5672/
     queue=gpss
     batch=50000 
-    mode=1      
-```  
-
-    queue is the rabbitmq queue name while batch is the amount of messages that the rabbit-greenplum connector must receive     before pushing the data into greenplum.<br/>
-    If mode is set to 1 the items batched will be saved on a disk file so in case of crash or network issue at the next         restart the connector will be automatically able to recover this info again<br/>
+    mode=1
+```
+queue is the rabbitmq queue name while batch is the amount of messages that the rabbit-greenplum connector must receive     before pushing the data into greenplum.<br/>
+If mode is set to 1 the items batched will be saved on a disk file so in case of crash or network issue at the next         restart the connector will be automatically able to recover this info again<br/>
 
 3. Run the connector:<br/>
-**./gpss-rabbit-greenplum-connect**<br/> 
-**Danieles-MBP:bin dpalaia$ ./gpss-rabbit-greenplum-connector **<br/>
-**connecting to grpc server**<br/>
-**connected**<br/>
-**2019/02/26 17:01:30  [*] Waiting for messages. To exit press CTRL+C**<br/>
+```
+./gpss-rabbit-greenplum-connect 
+Danieles-MBP:bin dpalaia$ ./gpss-rabbit-greenplum-connector 
+connecting to grpc server
+connected
+2019/02/26 17:01:30  [*] Waiting for messages. To exit press CTRL+C
+```
 
 4. Populate the queue with the UI interface (Publish command)<br/></br>
 ![Screenshot](./pics/queue3.png)
@@ -99,15 +100,18 @@ Every line correspond to the respective table field.
 
 6. In order to make tests easy I also developed a simple consumer inside rabbit-client, you can find a binary for macos always inside bin.
 If you run<br/>
-**./rabbit-client**<br/>
+./rabbit-client<br/>
 he will take the same configuration that is inside properties.ini and will start to fire messages inside the same queue.
 
 ## Unit testing
 A functional test is provided, it takes the parameters specified in ./properties insert batch elements inside the queue specified and then is checking that these elements have been inserted correctly.
 To work properly it needs the table and the rabbitmq queue to be initially empty.
 The table should be the same as the example and so:
-</br></br>
-  **test=# create table companies(id varchar 200, city varchar 200, foundation timestamp, description text, data json);<br/><br/>**
+
+```
+  test=# create table companies(id varchar 200, city varchar 200, foundation timestamp, description text, data json);
+```
+
   Then you can just go test -v ./... to let the test start
   
 ## Compiling and Installing the application </br> 
