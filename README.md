@@ -71,7 +71,6 @@ These are the steps to run the software:
 2. **Setting property file**    
       Use the file properties.ini (that should be place in the same directory of the binary in order to instruct the program        with this properties
       
-         ```
          GpssAddress=10.91.51.23:50007
          GreenplumAddress=10.91.51.23
          GreenplumPort=5533
@@ -84,8 +83,7 @@ These are the steps to run the software:
          queue=gpss
          batch=50000 
          mode=1
-         ```
-         
+                  
       queue is the rabbitmq queue name while batch is the amount of messages that the rabbit-greenplum connector must             receive     before pushing the data into greenplum.<br/>
       If mode is set to 1 the items batched will be saved on a disk file so in case of crash or network issue at the next         restart the connector will be automatically able to recover this info again<br/>
 
