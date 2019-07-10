@@ -20,7 +20,7 @@ These are the steps to run the software:
 
 ## Prerequisites
 
-1. Activate the gpss extension on the greenplum database you want to use (for example test)<br/><br/>
+1. Activate the gpss extension on the greenplum database you want to use (for example test)
    
    ```
    test=# CREATE EXTENSION gpss;
@@ -34,7 +34,7 @@ test=# create table companies(id varchar 200, city varchar 200, foundation times
 
    ![Screenshot](./pics/definition.png)
    
-3. Run a gpss server with the right configuration (ex):<br/><br/>
+3. Run a gpss server with the right configuration (ex):
   
   gpss ./gpsscfg1.json --log-dir ./gpsslogs
   where gpsscfg1.json 
