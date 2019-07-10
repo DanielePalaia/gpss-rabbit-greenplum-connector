@@ -20,13 +20,13 @@ These are the steps to run the software:
 
 ## Prerequisites
 
-1. Activate the gpss extension on the greenplum database you want to use (for example test)
+1. **Activate the gpss extension on the greenplum database you want to use (for example test)**
    
    ```
    test=# CREATE EXTENSION gpss;
    ```
    
-2. Create the Greenplum table to be ingested
+2. **Create the Greenplum table to be ingested**
    
 ```
 test=# create table companies(id varchar 200, city varchar 200, foundation timestamp, description text, data json);
@@ -34,7 +34,7 @@ test=# create table companies(id varchar 200, city varchar 200, foundation times
 
    ![Screenshot](./pics/definition.png)
    
-3. Run a gpss server with the right configuration (ex):
+3. **Run a gpss server with the right configuration (ex):**
   
   gpss ./gpsscfg1.json --log-dir ./gpsslogs
   where gpsscfg1.json 
@@ -53,10 +53,10 @@ test=# create table companies(id varchar 200, city varchar 200, foundation times
 }
 ```
 
-4. download, install and run a rabbitmq broker<br/><br/>
+4. **download, install and run a rabbitmq broker**
  ./rabbitmq-server
 
-5. Create a rabbitmq durable queue with the rabbitmq UI interface you want the connector to connect (es gpss):<br/>
+5. **Create a rabbitmq durable queue with the rabbitmq UI interface you want the connector to connect (es gpss)**<br/>
   ![Screenshot](./pics/queue.png)<br/>
   
 ## Running the application
