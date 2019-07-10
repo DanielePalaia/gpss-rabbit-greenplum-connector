@@ -12,7 +12,7 @@ https://grpc.io/ </br>
 https://gpdb.docs.pivotal.io/5160/greenplum-stream/overview.html</br>
 https://gpdb.docs.pivotal.io/5160/greenplum-stream/api/dev_client.html</br>
 
-![Screenshot](./pics/image1.png)
+![Screenshot](./pics/image2.png)
 
 The connector will attach to a rabbitmq queue specified at configuration time will then batch a certain amount of elements specified and finally will ask the gpss server to push them on a greenplum table. </br>
 
