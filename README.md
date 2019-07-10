@@ -54,9 +54,11 @@ test=# create table companies(id varchar 200, city varchar 200, foundation times
 ```
 
 4. **download, install and run a rabbitmq broker**
+
  ./rabbitmq-server
 
-5. **Create a rabbitmq durable queue with the rabbitmq UI interface you want the connector to connect (es gpss)**<br/>
+5. **Create a rabbitmq durable queue with the rabbitmq UI interface you want the connector to connect (es gpss)**
+
   ![Screenshot](./pics/queue.png)<br/>
   
 ## Running the application
