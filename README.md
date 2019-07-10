@@ -21,31 +21,40 @@ These are the steps to run the software:
 ## Prerequisites
 
 1. Activate the gpss extension on the greenplum database you want to use (for example test)<br/><br/>
-   **test=# CREATE EXTENSION gpss;**<br/><br/>
+   
+   ```
+   test=# CREATE EXTENSION gpss;
+   ```
    
 2. Create the Greenplum table to be ingested
    
-   **test=# create table companies(id varchar 200, city varchar 200, foundation timestamp, description text, data json);<br/><br/>**
-   
+```
+test=# create table companies(id varchar 200, city varchar 200, foundation timestamp, description text, data json);
+```
+
    ![Screenshot](./pics/definition.png)
    
 3. Run a gpss server with the right configuration (ex):<br/><br/>
-  **gpss ./gpsscfg1.json --log-dir ./gpsslogs** <br/><br/>
-  where gpsscfg1.json is <br/><br/>
-  {<br/>
-    "ListenAddress": {<br/>
-        "Host": "",<br/>
-        "Port": 50007,<br/>
-        "SSL": false<br/>
-    },<br/>
-    "Gpfdist": {<br/>
-        "Host": "",<br/>
-        "Port": 8086<br/>
-    }<br/>
-}<br/><br/>
+  
+  gpss ./gpsscfg1.json --log-dir ./gpsslogs
+  where gpsscfg1.json 
+  
+  ```
+  {
+    "ListenAddress": {
+        "Host": "",
+        "Port": 50007,
+        "SSL": false
+    },
+    "Gpfdist": {
+        "Host": "",
+        "Port": 8086
+    }
+}
+```
 
 4. download, install and run a rabbitmq broker<br/><br/>
- **./rabbitmq-server**
+ ./rabbitmq-server
 
 5. Create a rabbitmq durable queue with the rabbitmq UI interface you want the connector to connect (es gpss):<br/>
   ![Screenshot](./pics/queue.png)<br/>
@@ -54,21 +63,23 @@ These are the steps to run the software:
 
 1. The application is written in GO. If you are using MacOs then you can directly use the binary version inside ./bin/osx of this project called: gpss-rabbit-greenplum-connect otherwise you must compile it with the GO compiler<br/>
 
-2. Use the file properties.ini (that should be place in the same directory of the binary in order to instruct the program with this properties<br/>
+2. Use the file properties.ini (that should be place in the same directory of the binary in order to instruct the program with this properties
 
-    **GpssAddress=10.91.51.23:50007**<br/>
-    **GreenplumAddress=10.91.51.23**<br/>
-    **GreenplumPort=5533**<br/>
-    **GreenplumUser=gpadmin**<br/>
-    **GreenplumPasswd=**<br/> 
-    **Database=test**<br/>
-    **SchemaName=public**<br/>
-    **TableName=mytest3**<br/>
-    **rabbit=amqp://guest:guest@localhost:5672/**<br/>
-    **queue=gpss**<br/>
-    **batch=50000** <br/>
-    **mode=1** <br/>     
-    
+```
+    GpssAddress=10.91.51.23:50007
+    GreenplumAddress=10.91.51.23
+    GreenplumPort=5533
+    GreenplumUser=gpadmin
+    GreenplumPasswd= 
+    Database=test
+    SchemaName=public
+    TableName=mytest3
+    rabbit=amqp://guest:guest@localhost:5672/
+    queue=gpss
+    batch=50000 
+    mode=1      
+```  
+
     queue is the rabbitmq queue name while batch is the amount of messages that the rabbit-greenplum connector must receive     before pushing the data into greenplum.<br/>
     If mode is set to 1 the items batched will be saved on a disk file so in case of crash or network issue at the next         restart the connector will be automatically able to recover this info again<br/>
 
