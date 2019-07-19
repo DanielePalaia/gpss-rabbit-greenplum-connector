@@ -96,7 +96,7 @@ connected
 2019/02/26 17:01:30  [*] Waiting for messages. To exit press CTRL+C
 ```
 
-4. **Populate the queue with the UI interface (Publish command) **
+4. **Populate the queue with the UI interface (Publish command)**
 ![Screenshot](./pics/queue3.png)
 
 Every line correspond to the respective table field.
