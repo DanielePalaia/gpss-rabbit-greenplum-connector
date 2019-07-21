@@ -120,8 +120,30 @@ The table should be the same as the example and so:
   test=# create table companies(id varchar 200, city varchar 200, foundation timestamp, description text, data json);
 ```
 
-  Then you can just go test -v ./... to let the test start
+  Then you can just go test -v ./... to let the test start </br>
+  Useful commands in Go are also: </br>
   
+  ```
+  Danieles-MBP:gpss-rabbit-greenplum-connector dpalaia$ go test -coverprofile=coverage.out 
+   2019/07/21 14:31:37 Properties read: Connecting to the Grpc server specified
+   2019/07/21 14:31:37 Connected to the grpc server
+   2019/07/21 14:31:37  [*] Waiting for messages. To exit press CTRL+C
+   2019/07/21 14:31:37 Batch reached: I'm sending request to write to gpss/gprc server
+   2019/07/21 14:31:37 connecting to a greenplum database
+   2019/07/21 14:31:37 Beginning to write to greenplum
+   2019/07/21 14:31:37 table informations
+   2019/07/21 14:31:37 prepare for writing
+   Result:  SuccessCount:3 
+   2019/07/21 14:31:37 disconnecting to a greenplum database
+   PASS
+   coverage: 64.1% of statements
+   ok  	_/Users/dpalaia/go/src/gpss-rabbit-greenplum-connector	0.461s
+   ```
+   to see the degree of coverage in this case 64.1% and </br>
+   
+   go tool cover -html=coverage.out  </br>
+   it will open a .html page to see the code covered and the code not covered </br>
+   
 ## Compiling and Installing the application </br> 
 
 The application is written in GO. Binary for MacosX and Linux are already provided inside the /bin folder. <br/>
