@@ -1,6 +1,10 @@
 ## Summary 
 
-**Note: Please consider just branch V2 of this project as it is more recently updated** </br>
+**Note: Please consider just branch V2 of this project as it is more recently updated**
+Find it's here (its the main branch) </br>
+https://github.com/DanielePalaia/gpss-rabbit-greenplum-connector
+
+</br>
 
 This software is intended to be a simple (non production ready) connector rabbitmq-greenplum, similar to the default gpsscli which is supporting kafka.</br>
 
