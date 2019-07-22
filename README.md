@@ -116,7 +116,7 @@ Every line correspond to the respective table field.
       If you run<br/>
       ./rabbit-client<br/>
       
-he will take the same configuration that is inside properties.ini and will start to fire messages inside the same queue.
+      it will take the same configuration that is inside properties.ini and will start to fire messages inside the same    queue.
 
 ## Unit testing
 A functional test is provided, it takes the parameters specified in ./properties insert batch elements inside the queue specified and then is checking that these elements have been inserted correctly.
