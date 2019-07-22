@@ -91,7 +91,7 @@ These are the steps to run the software:
 
 3. **Run the connector**
 ```
-./gpss-rabbit-greenplum-connect 
+./gpss-rabbit-greenplum-connector 
 Danieles-MBP:bin dpalaia$ ./gpss-rabbit-greenplum-connector 
 connecting to grpc server
 connected
