@@ -75,7 +75,7 @@ These are the steps to run the software:
 1. **Find binaries** </br>
       The application is written in GO. If you are using MacOs or Linux64 then you can directly use the binary version inside ./bin/osx and ./bin/linux of this project called: gpss-rabbit-greenplum-connect otherwise you must compile it with the GO compiler<br/>
 
-2. **Setting property file**</br>    
+2. **Setting property file**    
       Use the file properties.ini (that should be place in the same directory of the binary in order to instruct the program        with this properties
       
          GpssAddress=10.91.51.23:50007
@@ -94,7 +94,7 @@ These are the steps to run the software:
       queue is the rabbitmq queue name while batch is the amount of messages that the rabbit-greenplum connector must             receive     before pushing the data into greenplum.<br/>
       If mode is set to 1 the items batched will be saved on a disk file so in case of crash or network issue at the next         restart the connector will be automatically able to recover this info again<br/>
 
-3. **Run the connector**</br>
+3. **Run the connector**
 ```
 ./gpss-rabbit-greenplum-connector 
 Danieles-MBP:bin dpalaia$ ./gpss-rabbit-greenplum-connector 
@@ -103,7 +103,7 @@ connected
 2019/02/26 17:01:30  [*] Waiting for messages. To exit press CTRL+C
 ```
 
-4. **Populate the queue with the UI interface (Publish command)**</br>
+4. **Populate the queue with the UI interface (Publish command)**
 ![Screenshot](./pics/queue3.png)
 
 Every line correspond to the respective table field.
