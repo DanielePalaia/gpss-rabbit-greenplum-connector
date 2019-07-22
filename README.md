@@ -105,7 +105,7 @@ connected
 ```
 
 4. **Populate the queue with the UI interface (Publish command)**
-</br>
+
 ![Screenshot](./pics/queue3.png)
 
 Every line correspond to the respective table field.
