@@ -68,7 +68,7 @@ These are the steps to run the software:
 ## Running the application
 
 1. **Find binaries** 
-      The application is written in GO. If you are using MacOs then you can directly use the binary version inside ./bin/osx       of this project called: gpss-rabbit-greenplum-connect otherwise you must compile it with the GO compiler<br/>
+      The application is written in GO. If you are using MacOs or Linux64 then you can directly use the binary version inside ./bin/osx and ./bin/linux of this project called: gpss-rabbit-greenplum-connect otherwise you must compile it with the GO compiler<br/>
 
 2. **Setting property file**    
       Use the file properties.ini (that should be place in the same directory of the binary in order to instruct the program        with this properties
