@@ -61,7 +61,7 @@ These are the steps to run the software:
       then run the broker </br>
       ./rabbitmq-server </br>
       Then go with your browser to the rabbit web UI in: </br>
-      http://localhost:15672/ </br>
+      http://localhost:15672/ </br></br>
       ![Screenshot](./pics/connection.png)<br/>
       and log with guest/guest (default)
       
