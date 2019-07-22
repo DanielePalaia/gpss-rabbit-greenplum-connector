@@ -58,9 +58,14 @@ These are the steps to run the software:
 4. **download, install and run a rabbitmq broker**
 
       https://www.rabbitmq.com/download.html </br>
-      then run the broker
-      ./rabbitmq-server
-
+      then run the broker </br>
+      ./rabbitmq-server </br>
+      Then go with your browser to the rabbit web UI in: </br>
+      http://localhost:15672/ </br>
+      ![Screenshot](./pics/connection.png)<br/>
+      and log with guest/guest (default)
+      
+      
 5. **Create a rabbitmq durable queue with the rabbitmq UI interface you want the connector to connect (es gpss)**
 
   ![Screenshot](./pics/queue.png)<br/>
