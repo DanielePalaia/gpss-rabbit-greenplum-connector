@@ -114,7 +114,13 @@ Every line correspond to the respective table field.
 6. **Try producer client**
       In order to make tests easy I also developed a simple consumer inside rabbit-client, you can find a binary for macos         always inside bin.<br/>
       If you run<br/>
-      ./rabbit-client<br/>
+      ./rabbit-clientEx2<br/>
+      The producer is just massively sending info to the rabbitmq specified in properties.ini </br>
+      When you test this please put an high level of batching like 10000 </br>
+      See logs attached:
+      ![Screenshot](./pics/consumer.png)
+      this is the log of the connector: </br>
+      ![Screenshot](./pics/connector-log.png)
       
       it will take the same configuration that is inside properties.ini and will start to fire messages inside the same    queue.
 
