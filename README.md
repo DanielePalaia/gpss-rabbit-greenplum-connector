@@ -75,7 +75,7 @@ These are the steps to run the software:
       
          GpssAddress=10.91.51.23:50007
          GreenplumAddress=10.91.51.23
-         GreenplumPort=5533
+         GreenplumPort=5432
          GreenplumUser=gpadmin
          GreenplumPasswd= 
          Database=test
