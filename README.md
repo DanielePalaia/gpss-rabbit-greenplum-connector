@@ -1,7 +1,7 @@
 ## Summary 
 
 **Note: Please consider just branch V2 of this project as it is more recently updated**
-Find it's here (its the main branch) </br>
+Find it here (its the main branch) </br>
 https://github.com/DanielePalaia/gpss-rabbit-greenplum-connector
 
 </br>
