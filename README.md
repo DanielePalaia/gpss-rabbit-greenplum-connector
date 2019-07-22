@@ -117,7 +117,7 @@ Every line correspond to the respective table field.
       ./rabbit-clientEx2<br/>
       The producer is just massively sending info to the rabbitmq specified in properties.ini </br>
       When you test this please put an high level of batching like 10000 </br>
-      this is the log of the connector: </br>
+      this is the log of the connector: </br></br>
       ![Screenshot](./pics/connector-log2.png)
       
       it will take the same configuration that is inside properties.ini and will start to fire messages inside the same    queue.
