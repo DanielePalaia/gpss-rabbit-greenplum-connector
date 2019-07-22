@@ -178,4 +178,5 @@ If you need to compile and install it you need to download a GO compiler (ex for
 1) Better loggings and put loggings in a central .log file
 2) Transform the connector as a web service adding also a Dockerfile in order to push it on Dockerhub and be able to be deployed on Kubernetes. Also adding a simple web-interface like Swagger.
 3) Better code review
+4) Increasing test coverage from 64%
 
