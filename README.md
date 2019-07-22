@@ -31,7 +31,7 @@ These are the steps to run the software:
 2. **Create the Greenplum table to be ingested**
    
       ```
-      test=# create table companies(id varchar 200, city varchar 200, foundation timestamp, description text, data json);
+      test=# create table companies(id varchar (200), city varchar (200), foundation timestamp, description text, data json);
       ```
 
    ![Screenshot](./pics/definition.png)
