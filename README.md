@@ -112,10 +112,11 @@ Every line correspond to the respective table field.
       Once you publish more messages than the batch value you should then see the table populated and you can restart             publishing.<br/>
 
 6. **Try producer client**</br>
-      In order to make tests easy I also developed a simple consumer inside rabbit-client, you can find a binary for macos         always inside bin.<br/>
+      In order to make tests easy I also developed a simple producer inside rabbit-client, you can find a binary for macos         always inside bin.<br/>
       If you run<br/>
       ./rabbit-clientEx2<br/>
       The producer is just massively sending info to the rabbitmq specified in properties.ini </br>
+      At the moment is not printing any message in the screeen (improve) but it's looping sending messages to the rabbit queue </br>
       When you test this please put an high level of batching like 10000 </br>
       this is the log of the connector: </br></br>
       ![Screenshot](./pics/connector-log2.png)
