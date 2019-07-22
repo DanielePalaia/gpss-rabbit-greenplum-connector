@@ -30,6 +30,8 @@ These are the steps to run the software:
       ```
    
 2. **Create the Greenplum table to be ingested**
+
+      The table can be generic with any number of coloumns and data types. The important thing is that the input to ingest         will be coherent with the table definition. Let's try this table as example:
    
       ```
       test=# create table companies(id varchar (200), city varchar (200), foundation timestamp, description text, data json);
