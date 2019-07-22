@@ -72,10 +72,10 @@ These are the steps to run the software:
   
 ## Running the application
 
-1. **Find binaries** 
+1. **Find binaries** </br>
       The application is written in GO. If you are using MacOs or Linux64 then you can directly use the binary version inside ./bin/osx and ./bin/linux of this project called: gpss-rabbit-greenplum-connect otherwise you must compile it with the GO compiler<br/>
 
-2. **Setting property file**    
+2. **Setting property file**</br>    
       Use the file properties.ini (that should be place in the same directory of the binary in order to instruct the program        with this properties
       
          GpssAddress=10.91.51.23:50007
@@ -94,7 +94,7 @@ These are the steps to run the software:
       queue is the rabbitmq queue name while batch is the amount of messages that the rabbit-greenplum connector must             receive     before pushing the data into greenplum.<br/>
       If mode is set to 1 the items batched will be saved on a disk file so in case of crash or network issue at the next         restart the connector will be automatically able to recover this info again<br/>
 
-3. **Run the connector**
+3. **Run the connector**</br>
 ```
 ./gpss-rabbit-greenplum-connector 
 Danieles-MBP:bin dpalaia$ ./gpss-rabbit-greenplum-connector 
@@ -103,15 +103,15 @@ connected
 2019/02/26 17:01:30  [*] Waiting for messages. To exit press CTRL+C
 ```
 
-4. **Populate the queue with the UI interface (Publish command)**
+4. **Populate the queue with the UI interface (Publish command)**</br>
 ![Screenshot](./pics/queue3.png)
 
 Every line correspond to the respective table field.
 
-5. **Insert elements as specified in batches property** 
+5. **Insert elements as specified in batches property** </br>
       Once you publish more messages than the batch value you should then see the table populated and you can restart             publishing.<br/>
 
-6. **Try producer client**
+6. **Try producer client**</br>
       In order to make tests easy I also developed a simple consumer inside rabbit-client, you can find a binary for macos         always inside bin.<br/>
       If you run<br/>
       ./rabbit-clientEx2<br/>
@@ -155,7 +155,7 @@ The table should be the same as the example and so:
    go tool cover -html=coverage.out  </br>
    it will open a .html page to see the code covered and the code not covered </br>
    
-## Compiling and Installing the application </br> 
+## Compiling and Installing the application  
 
 The application is written in GO. Binary for MacosX and Linux are already provided inside the /bin folder. <br/>
 If you need to compile and install it you need to download a GO compiler (ex for Linux - ubuntu) </br>
