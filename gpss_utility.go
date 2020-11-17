@@ -58,7 +58,7 @@ func (client *gpssClient) ConnectToGrpcServer() {
 func (client *gpssClient) ConnectToGreenplumDatabase() {
 
 	log.Printf("connecting to a greenplum database")
-	connReq := gpss.ConnectRequest{Host: client.GreenplumAddress, Port: client.GreenplumPort, Username: client.GreenplumUser, DB: client.Database}
+	connReq := gpss.ConnectRequest{Host: client.GreenplumAddress, Port: client.GreenplumPort, Password: "", Username: client.GreenplumUser, DB: client.Database}
 	var err error
 	client.session, err = client.client.Connect(context.Background(), &connReq)
 	if err != nil {
