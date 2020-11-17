@@ -48,11 +48,8 @@ func send(ch *amqp.Channel, queueName string) {
 	failOnError(err, "Failed to declare a queue")
 
 	for true {
-		body := "777\r\n"
-		body = body + "Rome\r\n"
-		body = body + "2017-08-19 12:17:55\r\n"
-		body = body + "my description\r\n"
-		body = body + "{ \"cust_id\": 1313131, \"month\": 12, \"expenses\": 1313.13 }"
+
+		body := "{ \"cust_id\": 1313131, \"month\": 12, \"expenses\": 1313.13 }"
 
 		err = ch.Publish(
 			"",     // exchange
