@@ -47,7 +47,7 @@ func send(ch *amqp.Channel, queueName string) {
 	)
 	failOnError(err, "Failed to declare a queue")
 
-	body := GetJSON()
+	body := GetJSONSingleLine()
 	for true {
 
 		//body := "{ \"cust_id\": 1313131, \"month\": 12, \"expenses\": 1313.13 }"
