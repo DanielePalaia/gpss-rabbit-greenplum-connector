@@ -47,7 +47,7 @@ func (client *gpssClient) ConnectToGrpcServer() {
 	/* Connecting to the grpc server */
 	serverAddr := flag.String("server_addr", client.GpssAddress, "The server address in the format of host:port")
 	var err error
-	client.conn, err = grpc.Dial(*serverAddr, grpc.WithInsecure(), grpc.WithMaxMsgSize(121958008))
+	client.conn, err = grpc.Dial(*serverAddr, grpc.WithInsecure(), grpc.WithMaxMsgSize(309895008))
 	if err != nil {
 		log.Fatalf("fail to dial: %v", err)
 	}
