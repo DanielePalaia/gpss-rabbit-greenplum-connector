@@ -1,0 +1,5098 @@
+{
+	"message": {
+	    "header": "CarCode123456",
+	    "timestamp":"123456",         
+		"signal1": {
+		        "value": "90",
+				"type": "degrees"
+        },
+		"signal2": {
+		        "value": "2",
+				"type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        }
+        ,
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        }
+        ,
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        }
+        ,
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        }
+        ,
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        }
+        ,
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        }
+        ,
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        }
+        ,
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        }
+        ,
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        }
+        ,
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        }
+        ,
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        }
+        ,
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        }
+        ,
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        },
+		"signal3": {
+            "value": "2",
+            "type": "bar"
+        }
+    }
+}
